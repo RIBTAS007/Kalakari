@@ -1,0 +1,64 @@
+@import './fonts/fonts.css';
+
+.carousel-container {
+    width: 90%; /* Adjust the width as needed */
+    height: 720px !important; /* Adjust the height as needed */
+    margin: 0 auto;
+  }
+
+  .carousel .carousel-slider {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .carousel-container .carousel-item {
+    height: 720px !important; /* Adjust the height as needed */
+  }
+
+  .carousel-container:hover {
+    cursor: pointer;
+  }
+  
+  .carousel-item {
+    position: relative;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .carousel-caption h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: 'Velour-Bold', sans-serif;
+    background-color: rgba(12, 11, 11, 0.5); /* Adjust the opacity as needed */
+    border-radius: 10px; /* Adjust the border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the box shadow as desired */
+    padding: 10px; /* Add padding for content spacing */
+  }
+  
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .carousel .control-arrow.carousel__arrow--left,
+.carousel .control-arrow.carousel__arrow--right {
+  color: white;
+}
+
+.carousel .control-arrow.carousel__arrow--left:before,
+.carousel .control-arrow.carousel__arrow--right:before {
+  border-color: white;
+}
+  

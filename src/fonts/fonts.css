@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Velour-Bold';
+    src: url('./Velour-Bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Bodoni';
+    src: url('./Bodoni.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

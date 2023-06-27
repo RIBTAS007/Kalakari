@@ -1,4 +1,4 @@
-/* LandingPage.css */
+@import './fonts/fonts.css';
 
 html {
     line-height: 1.15;
@@ -11,77 +11,44 @@ html {
     font-family: "RocknRoll One", sans-serif;
   }
 
+  .nav-div {
+    background-color: #883f08;
+    height: 70px; /* Adjust the height as per your requirements */
+  }
+
+  .title {
+    font-family: 'Velour-Bold', sans-serif;
+    font-size: 90px;
+    color: white;
+    letter-spacing: 15px;
+  }
+
+  .subheading {
+    font-family: Arial, sans-serif; 
+    font-size: 20px;
+    color: white;
+  }
+
 .landing-page {
     display: flex;
     justify-content: center;
     align-items: center;
     /* width: 1440px; */ 
     height: 600px;
-    background-color: black;
+    background-image: url('./images/home3.png');
+    background-size: cover;
+    background-attachment: fixed;
   }
   
   .content {
     text-align: center;
   }
   
-  .title {
-    font-family: 'Velour-Bold', sans-serif;
-    font-size: 90px;
-    color: white;
+  .sectionTwoBg{
+    background-image: url('./images/home2.png');
   }
 
-  .subheading {
-    font-family: Arial, sans-serif; 
-    font-size: 15px;
-    color: white;
-    /* margin-top: -50px; */
-  }
-
-  .container{
-    display: flex;
-    width: 100vw;
-
-  }
-
-  .panel{
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    flex:0.5;
-    margin: 4px;
-    position: relative;
-    transition: flex 0.7s ease-in;
-  }
-
-  .panel h3{
-    font-size: 24px;
-    position: absolute;
-    left: 100px;
-    bottom: 20px;
-    margin:0;
-    opacity: 0;
-  }
-
-  .panel.active{
-    flex: 2;
-  }
-
-  .panel.active h3{
-    opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
-  }
-
-  @media(max-width: 480px){
-    .container{
-        width:100vw;
-    }
-
-    .panel:nth-of-type(4), 
-    .panel:nth-of-type(5){
-        display: none;
-    }
+  .sectionThreeBg{
+    /* background-image: url('./images/home4.png');*/
+     background-color: rgba(0, 0, 0, 0.9); 
   }
