@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kalakari/static/css/main.76e0dda3.css",
-    "main.js": "/Kalakari/static/js/main.27b45dd6.js",
+    "main.css": "/Kalakari/static/css/main.b6a6086e.css",
+    "main.js": "/Kalakari/static/js/main.288ef559.js",
     "static/js/787.86a20c43.chunk.js": "/Kalakari/static/js/787.86a20c43.chunk.js",
     "static/media/package.png": "/Kalakari/static/media/package.80466adfac7cf741801d.png",
     "static/media/woodcarvings.png": "/Kalakari/static/media/woodcarvings.e95dd2561e38450a8723.png",
@@ -10,29 +10,30 @@
     "static/media/section42.png": "/Kalakari/static/media/section42.958dddcf08ca524fa27d.png",
     "static/media/decor.png": "/Kalakari/static/media/decor.75a612c84c8de3cabd81.png",
     "static/media/section4.png": "/Kalakari/static/media/section4.1607d06f8062130f7a32.png",
-    "static/media/Kantha_embroidery.png": "/Kalakari/static/media/Kantha_embroidery.0066b2f3acd5f9173629.png",
     "static/media/pottery.png": "/Kalakari/static/media/pottery.97fd8a1f90d44b19664d.png",
     "static/media/home3.png": "/Kalakari/static/media/home3.5c305df61b66b7491720.png",
     "static/media/home2.png": "/Kalakari/static/media/home2.9fbe89dc22bf84ad9f22.png",
-    "static/media/Banarasi_Saree.png": "/Kalakari/static/media/Banarasi_Saree.469a190e269377027a99.png",
     "static/media/crafts.png": "/Kalakari/static/media/crafts.d000a9d70b3c31c96371.png",
     "static/media/bidriware.png": "/Kalakari/static/media/bidriware.54afe943bb4e2394bd8e.png",
-    "static/media/Ajrakh_textiles.png": "/Kalakari/static/media/Ajrakh_textiles.41e9e95c2dfcaf3e7887.png",
+    "static/media/apparel.png": "/Kalakari/static/media/apparel.e00fea35478984194106.png",
+    "static/media/Kantha_embroidery.png": "/Kalakari/static/media/Kantha_embroidery.52e92216a0a8b6fa6249.png",
     "static/media/jewellery.png": "/Kalakari/static/media/jewellery.f3c20499f4d8bb053c49.png",
     "static/media/section3.png": "/Kalakari/static/media/section3.d367220a307328289eb1.png",
+    "static/media/Banarasi_Saree.png": "/Kalakari/static/media/Banarasi_Saree.b052e79b1111d4f13f21.png",
     "static/media/Meenakari_ring.png": "/Kalakari/static/media/Meenakari_ring.107e2f562f330bc06d0e.png",
+    "static/media/Ajrakh_textiles.png": "/Kalakari/static/media/Ajrakh_textiles.1e2a87256d8368f59e3b.png",
     "static/media/odop.png": "/Kalakari/static/media/odop.fb0e6fce161f1fa70b7d.png",
     "static/media/Velour-Bold.otf": "/Kalakari/static/media/Velour-Bold.06c72fd81bf7dc33990e.otf",
     "static/media/Bodoni.ttf": "/Kalakari/static/media/Bodoni.2c179bac642d137a6d28.ttf",
     "static/media/logo.png": "/Kalakari/static/media/logo.1bdc7ce7a406aa64d91c.png",
     "static/media/seal_logo.png": "/Kalakari/static/media/seal_logo.03f532783bc2f2150cad.png",
     "index.html": "/Kalakari/index.html",
-    "main.76e0dda3.css.map": "/Kalakari/static/css/main.76e0dda3.css.map",
-    "main.27b45dd6.js.map": "/Kalakari/static/js/main.27b45dd6.js.map",
+    "main.b6a6086e.css.map": "/Kalakari/static/css/main.b6a6086e.css.map",
+    "main.288ef559.js.map": "/Kalakari/static/js/main.288ef559.js.map",
     "787.86a20c43.chunk.js.map": "/Kalakari/static/js/787.86a20c43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76e0dda3.css",
-    "static/js/main.27b45dd6.js"
+    "static/css/main.b6a6086e.css",
+    "static/js/main.288ef559.js"
   ]
 }
