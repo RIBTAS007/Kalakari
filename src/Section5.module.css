@@ -1,0 +1,56 @@
+@import './fonts/fonts.css';
+
+.section5container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('./images/package.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  padding: 40px; 
+  box-sizing: border-box; 
+}
+
+.text {
+  font-family: 'Velour-Bold', sans-serif;
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px); /* Increase the blur value as desired */
+  background-color: rgba(19, 18, 18, 0.4); /* Adjust the alpha value and color as desired */
+  border-radius: 10px;
+  z-index: -1;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .section5container {
+    min-height: auto;
+    padding: 20px; 
+  }
+  
+  .text {
+    font-size: 24px;
+    margin-bottom: 20px; 
+  }
+}

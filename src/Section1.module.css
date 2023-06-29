@@ -1,0 +1,40 @@
+/* Section1.module.css */
+@import './fonts/fonts.css';
+
+.landingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  background-image: url('./images/home3.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-family: 'Velour-Bold', sans-serif;
+  font-size: 4rem;
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
+.subheading {
+  font-family: Arial, sans-serif; 
+  font-size: 1rem;
+  color: white;
+}
+
+/* Media query example */
+@media (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .subheading {
+    font-size: 0.8rem;
+  }
+}

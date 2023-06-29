@@ -1,49 +1,12 @@
 @import './fonts/fonts.css';
 
-html {
-    line-height: 1.15;
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "RocknRoll One", sans-serif;
-  }
-
   .nav-div {
     background-color: #883f08;
     height: 40px;
     border-bottom: 3px solid white;
   }
 
-  .title {
-    font-family: 'Velour-Bold', sans-serif;
-    font-size: 90px;
-    color: white;
-    letter-spacing: 15px;
-  }
 
-  .subheading {
-    font-family: Arial, sans-serif; 
-    font-size: 20px;
-    color: white;
-  }
-
-.landing-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 1440px; */ 
-    height: 600px;
-    background-image: url('./images/home3.png');
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
-  .content {
-    text-align: center;
-  }
   
   .sectionTwoBg{
     background-image: url('./images/home2.png');
@@ -52,4 +15,5 @@ html {
   .sectionThreeBg{
     background-image: url('./images/section3.png');
      background-color: rgba(0, 0, 0, 0.9); 
+     height:100vh;
   }
