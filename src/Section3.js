@@ -23,7 +23,9 @@ const Section3 = () => {
     // const removeActiveClasses = () => {
     //   setActivePanel(null);
     // };
- return  <div className="container">
+ return  (
+  <div className='outerContainer'>
+ <div className="container">
  <div
    className={`panel ${activePanel === 0 ? 'active' : ''}`}
    onClick={() => handlePanelClick(0)}
@@ -65,7 +67,8 @@ const Section3 = () => {
  >
    <h3>JEWELLERY</h3>
  </div>
-</div> 
+</div>
+</div> )
 }
 
 export default Section3

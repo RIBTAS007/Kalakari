@@ -13,7 +13,8 @@ html {
 
   .nav-div {
     background-color: #883f08;
-    height: 70px; /* Adjust the height as per your requirements */
+    height: 40px;
+    border-bottom: 3px solid white;
   }
 
   .title {
@@ -49,6 +50,6 @@ html {
   }
 
   .sectionThreeBg{
-    /* background-image: url('./images/home4.png');*/
+    background-image: url('./images/section3.png');
      background-color: rgba(0, 0, 0, 0.9); 
   }

@@ -22,7 +22,14 @@ const CarouselSection = () => {
         interval={1000}
         stopOnHover
         showThumbs={false}
-      >
+      > 
+      <div className="carousel-item">
+          <img src={kanthaEmbroidery} alt="kanthaEmbroidery" />
+          <div className="carousel-caption">
+            <h2>Kantha Embroidery</h2>
+            <p>Colorful stitching creating intricate patterns in textile art.</p>
+          </div>
+        </div>
         <div className="carousel-item">
           <img src={kashmiriCarpets} alt="Kashmiri Carpets" />
           <div className="carousel-caption">
@@ -35,13 +42,6 @@ const CarouselSection = () => {
           <div className="carousel-caption">
             <h2>Meenakari Jewellery</h2>
             <p>Vibrant enamel jewelry with rich cultural heritage from Rajasthan</p>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <img src={kanthaEmbroidery} alt="kanthaEmbroidery" />
-          <div className="carousel-caption">
-            <h2>Kantha Embroidery</h2>
-            <p>Colorful stitching creating intricate patterns in textile art.</p>
           </div>
         </div>
         <div className="carousel-item">

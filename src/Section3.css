@@ -10,17 +10,22 @@ html {
     font-family: "RocknRoll One", sans-serif;
   }
 
-  .container{
+  .outerContainer{
+    padding:20px;
+    overflow: hidden;
+  }
+
+  .container {
     display: flex;
-    width: 90%;
-    margin: 0 auto;
+    margin: 0;
+    justify-content: center;
   }
 
   .panel{
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 600px;
     border-radius: 20px;
     color: #fff;
     cursor: pointer;

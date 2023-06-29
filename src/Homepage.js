@@ -3,6 +3,10 @@ import './Homepage.css';
 import './fonts/fonts.css';
 import CarouselSection from './Section2';
 import Section3 from './Section3';
+import Section4 from './Section4';
+import Section5 from './Section5';
+import Section6 from './Section6';
+import Footer from './footer';
 
 const Homepage = () => {
 
@@ -23,6 +27,10 @@ const Homepage = () => {
       <div className='sectionThreeBg'>
       <Section3/>
       </div>
+      <Section4/>
+      <Section5/>
+      <Section6/>
+      <Footer/>
       
       
     </>
