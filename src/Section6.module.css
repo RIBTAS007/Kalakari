@@ -1,0 +1,68 @@
+@import './fonts/fonts.css';
+
+.sectionContainer {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.heading {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Velour-Bold', sans-serif;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: white;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .imageContainer {
+   margin-bottom: 20px;
+  }
+}

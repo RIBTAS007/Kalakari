@@ -1,0 +1,80 @@
+@import './fonts/fonts.css';
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(310deg, rgb(25, 10, 1) 0%, rgba(54, 25, 4, 1) 35%, rgba(65, 31, 6, 1) 70%, rgb(48, 22, 2) 100%);
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Velour-Bold', sans-serif;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: #fff;
+  font-family: "RocknRoll One", sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex: 1;
+  margin-top: 20px;
+}
+
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  flex:1;
+}
+
+.imageContainer {
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+
+  .section{
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    margin-bottom: 10vh;
+  }
+
+  .imageContainer {
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -8,6 +8,7 @@ import Section4 from './Section4';
 import Section5 from './Section5';
 import Section6 from './Section6';
 import Footer from './Footer';
+import Section7 from './Section7';
 
 const Homepage = () => {
 
@@ -20,6 +21,7 @@ const Homepage = () => {
       <Section4/>
       <Section5/>
       <Section6/>
+      <Section7/>
       <Footer/>
       
       

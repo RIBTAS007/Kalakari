@@ -21,11 +21,27 @@
   align-items: stretch;
   max-width: 80%;
   margin: 0 auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px); /* Increase the blur value as desired */
+  background-color: rgba(19, 18, 18, 0.4); /* Adjust the alpha value and color as desired */
+  backdrop-filter: blur(10px); 
   border-radius: 10px;
   padding: 10px;
+  position: relative;
 }
+
+.featureBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px); 
+  background-color: rgba(19, 18, 18, 0.4);
+  border-radius: 10px;
+  z-index: -1;
+}
+
 
 .featureContent {
   flex: 1;
@@ -99,7 +115,7 @@
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 20px;
   }
 
   .featureContent {
@@ -117,6 +133,6 @@
   }
 
   .customButton {
-    margin: 0 auto;
+    margin: 30px auto 0px auto;
   }
 }
