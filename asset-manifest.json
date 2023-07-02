@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Kalakari/static/css/main.64730910.css",
-    "main.js": "/Kalakari/static/js/main.7084d792.js",
+    "main.js": "/Kalakari/static/js/main.15543477.js",
     "static/css/815.608d1aa4.chunk.css": "/Kalakari/static/css/815.608d1aa4.chunk.css",
     "static/js/815.11db6f89.chunk.js": "/Kalakari/static/js/815.11db6f89.chunk.js",
     "static/css/924.4f56a8b5.chunk.css": "/Kalakari/static/css/924.4f56a8b5.chunk.css",
     "static/js/924.98fde007.chunk.js": "/Kalakari/static/js/924.98fde007.chunk.js",
     "static/css/693.efab7ff0.chunk.css": "/Kalakari/static/css/693.efab7ff0.chunk.css",
     "static/js/693.2719739e.chunk.js": "/Kalakari/static/js/693.2719739e.chunk.js",
-    "static/css/796.4c278feb.chunk.css": "/Kalakari/static/css/796.4c278feb.chunk.css",
+    "static/css/796.56cff469.chunk.css": "/Kalakari/static/css/796.56cff469.chunk.css",
     "static/js/796.075932b4.chunk.js": "/Kalakari/static/js/796.075932b4.chunk.js",
-    "static/css/78.bd221cfc.chunk.css": "/Kalakari/static/css/78.bd221cfc.chunk.css",
+    "static/css/78.ebd902cf.chunk.css": "/Kalakari/static/css/78.ebd902cf.chunk.css",
     "static/js/78.81282fe7.chunk.js": "/Kalakari/static/js/78.81282fe7.chunk.js",
     "static/css/486.3a7b0af3.chunk.css": "/Kalakari/static/css/486.3a7b0af3.chunk.css",
     "static/js/486.f4ffae3c.chunk.js": "/Kalakari/static/js/486.f4ffae3c.chunk.js",
@@ -47,16 +47,16 @@
     "static/media/logo.png": "/Kalakari/static/media/logo.1bdc7ce7a406aa64d91c.png",
     "index.html": "/Kalakari/index.html",
     "main.64730910.css.map": "/Kalakari/static/css/main.64730910.css.map",
-    "main.7084d792.js.map": "/Kalakari/static/js/main.7084d792.js.map",
+    "main.15543477.js.map": "/Kalakari/static/js/main.15543477.js.map",
     "815.608d1aa4.chunk.css.map": "/Kalakari/static/css/815.608d1aa4.chunk.css.map",
     "815.11db6f89.chunk.js.map": "/Kalakari/static/js/815.11db6f89.chunk.js.map",
     "924.4f56a8b5.chunk.css.map": "/Kalakari/static/css/924.4f56a8b5.chunk.css.map",
     "924.98fde007.chunk.js.map": "/Kalakari/static/js/924.98fde007.chunk.js.map",
     "693.efab7ff0.chunk.css.map": "/Kalakari/static/css/693.efab7ff0.chunk.css.map",
     "693.2719739e.chunk.js.map": "/Kalakari/static/js/693.2719739e.chunk.js.map",
-    "796.4c278feb.chunk.css.map": "/Kalakari/static/css/796.4c278feb.chunk.css.map",
+    "796.56cff469.chunk.css.map": "/Kalakari/static/css/796.56cff469.chunk.css.map",
     "796.075932b4.chunk.js.map": "/Kalakari/static/js/796.075932b4.chunk.js.map",
-    "78.bd221cfc.chunk.css.map": "/Kalakari/static/css/78.bd221cfc.chunk.css.map",
+    "78.ebd902cf.chunk.css.map": "/Kalakari/static/css/78.ebd902cf.chunk.css.map",
     "78.81282fe7.chunk.js.map": "/Kalakari/static/js/78.81282fe7.chunk.js.map",
     "486.3a7b0af3.chunk.css.map": "/Kalakari/static/css/486.3a7b0af3.chunk.css.map",
     "486.f4ffae3c.chunk.js.map": "/Kalakari/static/js/486.f4ffae3c.chunk.js.map",
@@ -70,6 +70,6 @@
   },
   "entrypoints": [
     "static/css/main.64730910.css",
-    "static/js/main.7084d792.js"
+    "static/js/main.15543477.js"
   ]
 }
