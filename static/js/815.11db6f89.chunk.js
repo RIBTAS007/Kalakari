@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkalakari=self.webpackChunkkalakari||[]).push([[815],{815:function(e,n,a){a.r(n),a.d(n,{default:function(){return r}});a(2791);var i="Section1_landingPage__3wSy-",c="Section1_content__xCLh4",s="Section1_title__xIl9O",t="Section1_subheading__iet-g",l=a(184),r=function(){return(0,l.jsx)("div",{className:i,children:(0,l.jsxs)("div",{className:c,children:[(0,l.jsx)("h1",{className:s,children:"KALAKARI"}),(0,l.jsx)("h2",{className:t,children:"Curated Elegance. Delivered to your Doorstep."})]})})}}}]);
+//# sourceMappingURL=815.11db6f89.chunk.js.map
