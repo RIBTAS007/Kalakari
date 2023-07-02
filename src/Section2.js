@@ -23,9 +23,10 @@ const Section2 = () => {
           interval={1000}
           stopOnHover
           showThumbs={false}
+          showStatus={false}
           className={styles.carousel}
         >
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={kanthaEmbroidery} alt="kanthaEmbroidery" />
             <div className={styles.carouselCaption}>
               <h2>Kantha Embroidery</h2>
@@ -34,7 +35,7 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={kashmiriCarpets} alt="Kashmiri Carpets" />
             <div className={styles.carouselCaption}>
               <h2>Kashmiri Carpets</h2>
@@ -44,7 +45,7 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={meenakariRing} alt="meenakariRing" />
             <div className={styles.carouselCaption}>
               <h2>Meenakari Jewellery</h2>
@@ -54,14 +55,14 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={pottery} alt="pottery" />
             <div className={styles.carouselCaption}>
               <h2>Pottery</h2>
               <p>Sculpting clay into decorative ceramic objects.</p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={madhubaniPaintings} alt="madhubaniPaintings" />
             <div className={styles.carouselCaption}>
               <h2>Madhubani Paintings</h2>
@@ -70,21 +71,21 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={bidriware} alt="bidriware1" />
             <div className={styles.carouselCaption}>
               <h2>Bidriware</h2>
               <p>Silver inlay work on black metalware from Bidar, India.</p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={woodcarvings} alt="woodcarvings" />
             <div className={styles.carouselCaption}>
               <h2>Wood Carvings</h2>
               <p>Beautiful wooden sculptures and designs</p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={ajrakhTextiles} alt="ajrakhTextiles" />
             <div className={styles.carouselCaption}>
               <h2>Ajrakh Textiles</h2>
@@ -94,10 +95,10 @@ const Section2 = () => {
               </p>
             </div>
           </div>
-          <div className={styles.carouselItem}>
+          <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={banarasiSaree} alt="banarasiSaree" />
             <div className={styles.carouselCaption}>
-              <h2>Banarasi SilK Saree</h2>
+              <h2>Banarasi Silk Saree</h2>
               <p>
                 Luxurious silk sarees from Banaras, known for their intricate
                 weaving.

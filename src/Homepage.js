@@ -1,30 +1,31 @@
-
-import './Homepage.css';
+import React, { lazy, Suspense } from 'react';
+import styles from './Homepage.module.css';
 import './fonts/fonts.css';
-import Section1 from './Section1';
-import Section2 from './Section2';
-import Section3 from './Section3';
-import Section4 from './Section4';
-import Section5 from './Section5';
-import Section6 from './Section6';
-import Footer from './Footer';
-import Section7 from './Section7';
+import RotatingLogo from './RotatingLogo';
+
+const Section1 = lazy(() => import('./Section1'));
+const Section2 = lazy(() => import('./Section2'));
+const Section3 = lazy(() => import('./Section3'));
+const Section4 = lazy(() => import('./Section4'));
+const Section5 = lazy(() => import('./Section5'));
+const Section6 = lazy(() => import('./Section6'));
+const Section7 = lazy(() => import('./Section7'));
+const Footer = lazy(() => import('./Footer'));
 
 const Homepage = () => {
-
   return (
     <>
-    <div className="nav-div"></div>
-      <Section1/>
-      <Section2/> 
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section6/>
-      <Section7/>
-      <Footer/>
-      
-      
+      <div className={styles.navDiv}></div>
+      <Suspense fallback={<RotatingLogo/>}>
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+        <Footer />
+      </Suspense>
     </>
   );
 };

@@ -1,4 +1,5 @@
 @import './fonts/fonts.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 .section {
   position: relative;
@@ -16,12 +17,14 @@
   color: #fff;
   font-family: 'Velour-Bold', sans-serif;
   text-align: center;
+  letter-spacing: 0.4rem;
 }
 
 .paragraph {
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
-  font-family: "RocknRoll One", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1rem;
   line-height: 1.5;
   text-align: justify;
   max-width: 800px;

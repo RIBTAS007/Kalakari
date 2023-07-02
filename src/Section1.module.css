@@ -1,6 +1,8 @@
 /* Section1.module.css */
 @import './fonts/fonts.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 .landingPage {
   display: flex;
   justify-content: center;
@@ -17,15 +19,16 @@
 
 .title {
   font-family: 'Velour-Bold', sans-serif;
-  font-size: 4rem;
+  font-size: 6rem;
   color: white;
-  letter-spacing: 0.2rem;
+  letter-spacing: 2rem;
 }
 
 .subheading {
-  font-family: Arial, sans-serif; 
-  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
   color: white;
+  letter-spacing: 0.3rem;
 }
 
 /* Media query example */

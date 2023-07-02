@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 .footerParent {
   background-color: #000;
   text-align: center;
@@ -32,15 +34,19 @@
 .footerHeading {
   color: #fff;
   font-family: 'Velour-Bold', sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 0.8rem;
   font-size: 35px;
   margin-bottom: 10px;
 }
 
 .footerText {
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: -10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
 }
 
 .footerRight {
@@ -70,11 +76,15 @@
 .footerLinks a {
   text-decoration: none;
   color: #fff;
+  letter-spacing: 0.1rem;
+  font-size: 12px;
 }
 
 .footerCopyright {
   color: white;
   padding-bottom: 15px;
+  letter-spacing: 0.1rem;
+  font-size: 14px;
 }
 
 /* Media query example */

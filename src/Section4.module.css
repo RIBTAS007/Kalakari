@@ -1,4 +1,5 @@
 @import './fonts/fonts.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 .mainContent {
   background-image: url('./images/section42.png');
@@ -63,10 +64,11 @@
 .featureDescription {
   margin: auto 0;
   color: #fff;
-  font-family: "RocknRoll One", sans-serif;
-  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   line-height: 1.5;
   text-align: justify;
+  letter-spacing: 0.1rem;
 }
 
 .featureImage {
@@ -105,6 +107,15 @@
 
 .customButton:focus {
   outline: none;
+}
+
+.customButton a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.imageOverlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
 /* Responsive Styles */

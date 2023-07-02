@@ -1,5 +1,6 @@
 /* Section2.module.css */
 @import './fonts/fonts.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 .sectionTwoBg{
   background-image: url('./images/home2.png');
@@ -22,6 +23,8 @@
 .carouselItem {
   position: relative;
   height: 100vh !important;
+  display: flex;
+  align-items: flex-end;
 }
 
 .carouselItem img {
@@ -44,14 +47,17 @@
   color: #fff;
   margin-bottom: 5px;
   font-family: 'Velour-Bold', sans-serif;
-  background-color: rgba(12, 11, 11, 0.5);
+  backdrop-filter: blur(10px); /* Increase the blur value as desired */
+  background-color: rgba(19, 18, 18, 0.4);
   border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   padding: 10px;
+  letter-spacing: 0.1rem;
 }
 
 .carouselCaption p {
   font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .carousel .control-arrow.carousel__arrow--left,
@@ -66,6 +72,10 @@
 
 .carouselContainer:hover {
   cursor: pointer;
+}
+
+.imageOverlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
 /* Media query example */

@@ -32,7 +32,7 @@
 }
 
 .panel h3 {
-  font-size: 24px;
+  font-size: 20px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -40,6 +40,7 @@
   margin: 0;
   opacity: 0;
   font-family: 'Velour-Bold', sans-serif;
+  letter-spacing: 0.2rem;
 }
 
 .panel.active {

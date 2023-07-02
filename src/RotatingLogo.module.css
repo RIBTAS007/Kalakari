@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust the size according to your logo */
+    height: 150px;
+    animation: rotation 2s infinite linear;
+  }
+
+  .text {
+    margin-top: 16px; 
+    font-size: 20px; 
+    color: #fff; 
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

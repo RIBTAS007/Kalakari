@@ -1,7 +1,7 @@
 @import './fonts/fonts.css';
 
-  .nav-div {
-    background-color: #883f08;
+  .navDiv {
+    background-color: rgba(54, 25, 4, 1);
     height: 40px;
     border-bottom: 3px solid white;
   }
