@@ -78,13 +78,40 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
-/* Media query example */
+/* Media query*/
 @media (max-width: 768px) {
+  .sectionTwoBg {
+    min-height: 50vh; /* Adjust the height of the section */
+    padding-top: 2vh; /* Adjust the top padding */
+    padding-bottom: 2vh; /* Adjust the bottom padding */
+  }
+
+  .carouselContainer {
+    min-height: 50vh !important;
+  }
+  
+  .carousel {
+    height: 50% !important;
+  }
+  
+  .carouselItem {
+    height: 50vh !important;
+  }
+
+  .carouselCaption {
+
+    bottom: 25px;
+
+  }
+
   .carouselCaption h2 {
-    font-size: 1.5rem;
+    font-size: 14px;
+    letter-spacing: 0; /* Remove the letter spacing */
   }
 
   .carouselCaption p {
-    font-size: 0.8rem;
+    font-size: 10px;
+    letter-spacing: 0; /* Remove the letter spacing */
   }
 }
+

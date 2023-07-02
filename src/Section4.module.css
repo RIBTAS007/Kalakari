@@ -96,7 +96,7 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  font-family: "RocknRoll One", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   cursor: pointer;
   margin: 0 auto;
@@ -122,6 +122,11 @@
 /* Responsive Styles */
 
 @media (max-width: 768px) {
+
+  .mainContent {
+    min-height: 50vh;
+  }
+
   .featureBox {
     flex-direction: column;
     max-width: 100%;
@@ -145,6 +150,20 @@
   }
 
   .customButton {
-    margin: 30px auto 0px auto;
+    margin: 15px auto 0px auto;
+  }
+
+  .customButton {
+    font-size: 12px;
+  }
+
+  .featureTitle {
+    font-size: 20px;
+  }
+
+  .featureDescription {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 1.5;
   }
 }
