@@ -1,19 +1,29 @@
-import React from 'react';
-import styles from './Section7.module.css';
-import logo from './images/logo.png';
+import React from "react";
+import styles from "./Section7.module.css";
+import logo from "./images/logo.png";
+import { motion } from "framer-motion";
 
 const Section7 = () => {
   return (
     <div className={styles.section}>
       <div className={styles.sectionContent}>
         <div className={styles.imageContainer}>
-          <img className={styles.image} src={logo} alt="Feature Image" />
+          <motion.img
+            whileHover={{ rotateZ: "360deg" }}
+            transition={{duration:5, ease: "linear", loop: Infinity}}
+            className={styles.image}
+            src={logo}
+            alt="Feature Image"
+          ></motion.img>
         </div>
-        <h2 className={styles.heading}>SEAL OF THE REGION OF ORIGIN</h2>
+        <motion.h2 whileHover={{ scale: 0.9 }} transition={{duration:1}} className={styles.heading}>SEAL OF THE REGION OF ORIGIN</motion.h2>
       </div>
-      <p className={styles.paragraph}>
-        At Kalakari, authenticity and quality are valued. Each product comes with a 'Seal of Origin' to assure customers of its originality, bridging the gap between artisans and consumers. It represents rich cultural heritage and India's diverse craftsmanship.
-      </p>
+      <motion.p className={styles.paragraph} whileHover={{ scale: 0.9 }} transition={{duration:1}}>
+        At Kalakari, authenticity and quality are valued. Each product comes
+        with a 'Seal of Origin' to assure customers of its originality, bridging
+        the gap between artisans and consumers. It represents rich cultural
+        heritage and India's diverse craftsmanship.
+      </motion.p>
     </div>
   );
 };

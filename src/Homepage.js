@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from 'react';
 import styles from './Homepage.module.css';
 import './fonts/fonts.css';
 import RotatingLogo from './RotatingLogo';
+import { motion } from "framer-motion";
 
 const Section1 = lazy(() => import('./Section1'));
 const Section2 = lazy(() => import('./Section2'));
