@@ -1,10 +1,17 @@
 /* Section2.module.css */
 @import './fonts/fonts.css';
 
+.sectionTwoBg{
+  background-image: url('./images/home2.png');
+  min-height: 100vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
 .carouselContainer {
   width: 90%; 
-  min-height: 600px !important;
-  margin: 0 auto;
+  min-height: 100vh !important;
+  margin: 0px auto;
 }
 
 .carousel {
@@ -14,7 +21,7 @@
 
 .carouselItem {
   position: relative;
-  height: 600px !important;
+  height: 100vh !important;
 }
 
 .carouselItem img {

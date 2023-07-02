@@ -1,7 +1,13 @@
 @import './fonts/fonts.css';
 
 .outerContainer {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
   padding: auto 20px;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -9,7 +15,6 @@
 .container {
   display: flex;
   justify-content: center;
-  padding-top: 14vh;
 }
 
 .panel {
@@ -38,7 +43,7 @@
 }
 
 .panel.active {
-  flex: 3;
+  flex: 1;
 }
 
 .panel.active h3 {
@@ -57,6 +62,21 @@
   font-family: 'Velour-Bold', sans-serif;
   text-align: center;
   letter-spacing: 0.2rem;
+}
+
+.sectionThreeBg {
+  background-image: url('./images/section3.png');
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 100vh;
+  position: relative;
+}
+
+.sectionThreeBg::before {
+  content: "";
+  display: inline-block;
+  height: 100vh;
+  vertical-align: middle;
+  margin-right: -0.25em;
 }
 
 @media (max-width: 786px) {
