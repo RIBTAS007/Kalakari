@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kalakari/static/css/main.1d73de3e.css",
-    "main.js": "/Kalakari/static/js/main.288ef559.js",
+    "main.css": "/Kalakari/static/css/main.5f6f9285.css",
+    "main.js": "/Kalakari/static/js/main.93bdfc31.js",
     "static/js/787.86a20c43.chunk.js": "/Kalakari/static/js/787.86a20c43.chunk.js",
     "static/media/package.png": "/Kalakari/static/media/package.80466adfac7cf741801d.png",
     "static/media/woodcarvings.png": "/Kalakari/static/media/woodcarvings.e95dd2561e38450a8723.png",
@@ -28,12 +28,12 @@
     "static/media/logo.png": "/Kalakari/static/media/logo.1bdc7ce7a406aa64d91c.png",
     "static/media/seal_logo.png": "/Kalakari/static/media/seal_logo.03f532783bc2f2150cad.png",
     "index.html": "/Kalakari/index.html",
-    "main.1d73de3e.css.map": "/Kalakari/static/css/main.1d73de3e.css.map",
-    "main.288ef559.js.map": "/Kalakari/static/js/main.288ef559.js.map",
+    "main.5f6f9285.css.map": "/Kalakari/static/css/main.5f6f9285.css.map",
+    "main.93bdfc31.js.map": "/Kalakari/static/js/main.93bdfc31.js.map",
     "787.86a20c43.chunk.js.map": "/Kalakari/static/js/787.86a20c43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d73de3e.css",
-    "static/js/main.288ef559.js"
+    "static/css/main.5f6f9285.css",
+    "static/js/main.93bdfc31.js"
   ]
 }
