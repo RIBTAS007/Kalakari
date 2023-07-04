@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Section7.module.css";
-import logo from "./images/logo.png";
+import logo from "./images/seal_logo.png";
 import { motion } from "framer-motion";
 
 const Section7 = () => {
@@ -16,9 +16,9 @@ const Section7 = () => {
             alt="Feature Image"
           ></motion.img>
         </div>
-        <motion.h2 whileHover={{ scale: 0.9 }} transition={{duration:1}} className={styles.heading}>SEAL OF THE REGION OF ORIGIN</motion.h2>
+        <h2  className={styles.heading}>SEAL OF THE REGION <br /> OF ORIGIN</h2>
       </div>
-      <motion.p className={styles.paragraph} whileHover={{ scale: 0.9 }} transition={{duration:1}}>
+      <motion.p className={styles.paragraph}>
         At Kalakari, authenticity and quality are valued. Each product comes
         with a 'Seal of Origin' to assure customers of its originality, bridging
         the gap between artisans and consumers. It represents rich cultural

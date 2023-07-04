@@ -1,5 +1,5 @@
 .footer {
-  background-color: #000;
+  background-image: url(./images/background.png);
   color: #fff;
   padding: 30px;
   text-align: center;
@@ -24,18 +24,22 @@
 }
 
 .footerTitle {
-  font-size: 36px;
+  font-size: 42px;
   margin-bottom: 2px;
   letter-spacing: 0.8rem;
   font-family: 'Velour-Bold', sans-serif;
 }
 
 .footerSubtitle {
-  font-size: 13px;
+  font-size: 10px;
+  font-family: 'Brandon', sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 .footerContacts {
   margin-bottom: 30px;
+  font-family: 'Brandon', sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 .contactList {
@@ -60,7 +64,9 @@
 }
 
 .footerRights {
-  font-size: 14px;
+  font-size: 1.1rem;
+  font-family: 'Brandon', sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 @media (max-width: 768px) {

@@ -22,9 +22,10 @@
   align-items: stretch;
   max-width: 80%;
   margin: 0 auto;
-  backdrop-filter: blur(10px); /* Increase the blur value as desired */
-  background-color: rgba(19, 18, 18, 0.4); /* Adjust the alpha value and color as desired */
-  backdrop-filter: blur(10px); 
+  background-image: url(./images/background.png);
+  /* backdrop-filter: blur(10px);
+  background-color: rgba(19, 18, 18, 0.4); 
+  backdrop-filter: blur(10px);  */
   border-radius: 10px;
   padding: 10px;
   position: relative;
@@ -37,9 +38,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  backdrop-filter: blur(10px); 
+  background-image: url(./images/background.png);
+  /* backdrop-filter: blur(10px); 
   background-color: rgba(19, 18, 18, 0.4);
-  border-radius: 10px;
+  border-radius: 10px; */
   z-index: -1;
 }
 
@@ -65,11 +67,11 @@
 .featureDescription {
   margin: auto 0;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Brandon', sans-serif;
+  font-size: 1.2rem;
   line-height: 1.5;
   text-align: justify;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
 }
 
 .featureImage {
@@ -96,8 +98,8 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-family: 'Brandon', sans-serif;
+  font-size: 1.2rem;
   cursor: pointer;
   margin: 0 auto;
 }
@@ -163,7 +165,8 @@
 
   .featureDescription {
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 2vw;
+    letter-spacing: 0.1rem;
     line-height: 1.5;
   }
 }

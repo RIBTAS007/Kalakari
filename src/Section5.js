@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 const Section5 = () => {
   return (
     <div className={styles.section5container}>
-      <div className={styles.glassEffect} />
       <motion.p className={styles.text}
         whileHover={{textShadow: "0px 0px 2px rgb(255,255,255)"}}
       >

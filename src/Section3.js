@@ -68,7 +68,7 @@ const Section3 = () => {
             style={{
               backgroundImage: `url(${decorImage})`,
             }}
-            whileHover={{scale: 0.9, boxShadow: "0px 0px 6px rgb(255, 255, 255)"}}
+            whileHover={{scale: 0.9}}
             transition= {{duration: 0.3}}
           >
             <h3 >
@@ -83,7 +83,7 @@ const Section3 = () => {
             style={{
               backgroundImage: `url(${apparelImage})`,
             }}
-            whileHover={{scale: 0.9, boxShadow: "0px 0px 6px rgb(255, 255, 255)",}}
+            whileHover={{scale: 0.9}}
             transition= {{duration: 0.3}}
           >
             <h3>APPAREL</h3>
@@ -96,7 +96,7 @@ const Section3 = () => {
             style={{
               backgroundImage: `url(${craftsImage})`,
             }}
-            whileHover={{scale: 0.9, boxShadow: "0px 0px 6px rgb(255, 255, 255)"}}
+            whileHover={{scale: 0.9}}
             transition= {{duration: 0.3}}
           >
             <h3>CRAFTS</h3>
@@ -109,7 +109,7 @@ const Section3 = () => {
             style={{
               backgroundImage: `url(${jewelleryImage})`,
             }}
-            whileHover={{scale: 0.9, boxShadow: "0px 0px 6px rgb(255, 255, 255)"}}
+            whileHover={{scale: 0.9}}
             transition= {{type: "easeIn",duration: 0.3}}
             
           >

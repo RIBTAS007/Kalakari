@@ -21,7 +21,7 @@ const Footer = () => {
         <div className={styles.footerInfo}>
           <h1 className={styles.footerTitle}>KALAKARI</h1>
           <p className={styles.footerSubtitle}>
-            Curated Elegance. Delivered to your Doorstep.
+            CURATED ELEGANCE. DELIVERED TO YOUR DOORSTEP.
           </p>
         </div>
       </div>

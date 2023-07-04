@@ -33,11 +33,6 @@ const Section4 = () => {
              variants={section4Animation}
              initial="hiddenLeft"
              animate="visible"
-             whileHover={{
-              textShadow: "0px 0px 2px rgb(255, 255, 255)",
-              scale:0.9,
-              transition:{duration: 1}
-            }}
             >Embrace the Timeless Beauty of India's Traditional Art</motion.h2>
             <motion.p className={styles.featureDescription}
            variants={section4Animation}
@@ -48,10 +43,6 @@ const Section4 = () => {
             variants={section4Animation}
             initial="hiddenLeft"
             animate="visible"
-            whileHover={{
-              scale: 1.1,
-              boxShadow: "0px 0px 6px rgb(255, 255, 255)"
-            }}
             transition={{duration:1}}
             className={styles.customButton}><a href="mailto:nishant@thekalakari.co">Connect with Us</a></motion.button>
           </div>
@@ -59,10 +50,6 @@ const Section4 = () => {
           variants={section4Animation}
           initial="hiddenRight"
           animate="visible"
-          whileHover={{
-            scale: 0.9,
-            boxShadow: "0px 0px 6px rgb(255, 255, 255)"
-          }}
           transition={{duration:1}}
           >
             <img src={sec4} alt="Feature Image" />

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 .sectionTwoBg{
-  background-image: url('./images/home2.png');
+  background-image: url(./images/background.png);
   min-height: 100vh;
   padding-top: 4vh;
   padding-bottom: 4vh;
@@ -43,21 +43,21 @@
 }
 
 .carouselCaption h2 {
-  font-size: 2rem;
+  font-size: 1.1rem;
   color: #fff;
   margin-bottom: 5px;
-  font-family: 'Velour-Bold', sans-serif;
+  font-family: 'Brandon', sans-serif;
   backdrop-filter: blur(10px); /* Increase the blur value as desired */
   background-color: rgba(19, 18, 18, 0.4);
   border-radius: 10px; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   padding: 10px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.4rem;
 }
 
 .carouselCaption p {
   font-size: 1rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Brandon', sans-serif;
 }
 
 .carousel .control-arrow.carousel__arrow--left,
@@ -105,8 +105,8 @@
   }
 
   .carouselCaption h2 {
-    font-size: 14px;
-    letter-spacing: 0; /* Remove the letter spacing */
+    font-size: 2vw;
+    letter-spacing: 0.1rem; /* Remove the letter spacing */
   }
 
   .carouselCaption p {

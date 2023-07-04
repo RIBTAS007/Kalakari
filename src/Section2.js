@@ -29,7 +29,7 @@ const Section2 = () => {
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={kanthaEmbroidery} alt="kanthaEmbroidery" />
             <div className={styles.carouselCaption}>
-              <h2>Kantha Embroidery</h2>
+              <h2>KANTHA EMBROIDERY</h2>
               <p>
                 Colorful stitching creating intricate patterns in textile art.
               </p>
@@ -38,7 +38,7 @@ const Section2 = () => {
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={kashmiriCarpets} alt="Kashmiri Carpets" />
             <div className={styles.carouselCaption}>
-              <h2>Kashmiri Carpets</h2>
+              <h2>KASHMIRI CARPETS</h2>
               <p>
                 Exquisite handmade carpets from Kashmir, known for intricate
                 designs
@@ -48,7 +48,7 @@ const Section2 = () => {
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={meenakariRing} alt="meenakariRing" />
             <div className={styles.carouselCaption}>
-              <h2>Meenakari Jewellery</h2>
+              <h2>MEENAKARI JEWELLERY</h2>
               <p>
                 Vibrant enamel jewelry with rich cultural heritage from
                 Rajasthan
@@ -58,14 +58,14 @@ const Section2 = () => {
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={pottery} alt="pottery" />
             <div className={styles.carouselCaption}>
-              <h2>Pottery</h2>
+              <h2>POTTERY</h2>
               <p>Sculpting clay into decorative ceramic objects.</p>
             </div>
           </div>
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={madhubaniPaintings} alt="madhubaniPaintings" />
             <div className={styles.carouselCaption}>
-              <h2>Madhubani Paintings</h2>
+              <h2>MADHUBANI PAINTINGS</h2>
               <p>
                 A perfect gift for admirers of the traditional art of Bihar.
               </p>
@@ -74,21 +74,21 @@ const Section2 = () => {
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={bidriware} alt="bidriware1" />
             <div className={styles.carouselCaption}>
-              <h2>Bidriware</h2>
+              <h2>BIDRIWARE</h2>
               <p>Silver inlay work on black metalware from Bidar, India.</p>
             </div>
           </div>
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={woodcarvings} alt="woodcarvings" />
             <div className={styles.carouselCaption}>
-              <h2>Wood Carvings</h2>
+              <h2>WOOD CARVINGS</h2>
               <p>Beautiful wooden sculptures and designs</p>
             </div>
           </div>
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={ajrakhTextiles} alt="ajrakhTextiles" />
             <div className={styles.carouselCaption}>
-              <h2>Ajrakh Textiles</h2>
+              <h2>AJRAKH TEXTILES</h2>
               <p>
                 Traditional block-printed textiles with intricate geometric
                 patterns and vibrant colors
@@ -98,7 +98,7 @@ const Section2 = () => {
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={banarasiSaree} alt="banarasiSaree" />
             <div className={styles.carouselCaption}>
-              <h2>Banarasi Silk Saree</h2>
+              <h2>BANARASI SILK SAREE</h2>
               <p>
                 Luxurious silk sarees from Banaras, known for their intricate
                 weaving.

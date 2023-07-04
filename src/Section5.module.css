@@ -1,47 +1,32 @@
-@import './fonts/fonts.css';
-
 .section5container {
   position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-end; /* Align the card to the right */
+  /* text-align: center; */
   background-image: url('./images/package.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  padding: 40px; 
-  box-sizing: border-box; 
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 .text {
-  font-family: 'Velour-Bold', sans-serif;
+  font-family: 'Brandon', sans-serif;
   color: white;
-  width: fit-content;
-  font-size: 30px;
+  width: 150px;
+  font-size: 1.2rem;
   margin-bottom: 40px;
   padding: 10px;
   box-sizing: border-box;
   position: relative;
   z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
   letter-spacing: 0.2rem;
-}
-
-.text::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  backdrop-filter: blur(10px); /* Increase the blur value as desired */
-  background-color: rgba(19, 18, 18, 0.4);
-  border-radius: 10px;
-  z-index: -1;
+  word-break: break-word;
+  line-height: 1.5;
+  border-left: #fff 2px solid;
 }
 
 /* Responsive Styles */
@@ -49,10 +34,17 @@
 @media (max-width: 768px) {
   .section5container {
     height: 50vh;
-    padding: 20px; 
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
-  
+
   .text {
-    font-size: 20px;
+    font-size: 2vw;
+    letter-spacing: 0.1rem;
+    width: 100%; 
+    border-left: none;
+    background-image: url(./images/background.png);
   }
 }

@@ -55,7 +55,6 @@ const Section1 = () => {
           variants={section1Animationh1}
           initial="hidden"
           animate="visible"
-          whileHover="enlarge"
         >
           KALAKARI
         </motion.h1>
@@ -64,9 +63,8 @@ const Section1 = () => {
           variants={section1Animationh2}
           initial="hidden"
           animate="visible"
-          whileHover="enlarge"
         >
-          Curated Elegance. Delivered to your Doorstep.
+          CURATED ELEGANCE. DELIVERED TO YOUR DOORSTEP.
         </motion.h2>
       </div>
     </div>
