@@ -101,7 +101,7 @@
   font-family: 'Brandon', sans-serif;
   font-size: 1.2rem;
   cursor: pointer;
-  margin: 0 auto;
+  margin: 15px auto 0px auto;
 }
 
 .customButton:hover {
@@ -165,8 +165,8 @@
 
   .featureDescription {
     margin-top: 15px;
-    font-size: 2vw;
-    letter-spacing: 0.1rem;
+    /* font-size: 2vw;
+    letter-spacing: 0.1rem; */
     line-height: 1.5;
   }
 }

@@ -41,8 +41,8 @@
   }
 
   .text {
-    font-size: 2vw;
-    letter-spacing: 0.1rem;
+    /* font-size: 2vw;
+    letter-spacing: 0.1rem; */
     width: 100%; 
     border-left: none;
     background-image: url(./images/background.png);

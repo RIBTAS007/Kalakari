@@ -69,10 +69,10 @@
     font-size: 20px;
   }
 
-  .paragraph {
-    font-size: 2vw;
-    letter-spacing: 0.1rem;
-  }
+  /* .paragraph { */
+    /* font-size: 2vw;
+    letter-spacing: 0.1rem; */
+  /* } */
 
   .imageContainer {
    margin-bottom: 20px;
