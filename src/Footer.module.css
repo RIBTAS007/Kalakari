@@ -1,95 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-
-.footerParent {
-  background-color: #000;
-  text-align: center;
-  border-top: 3px solid white;
-}
-
 .footer {
   background-color: #000;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-top:#fff 2px solid;
 }
 
-.footerLeft {
+.footerContent {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .footerLogo {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  margin-right: 14px;
 }
 
-.logoText {
-  margin-top: 10px;
+.footerInfo {
   text-align: center;
 }
 
-.footerHeading {
-  color: #fff;
-  font-family: 'Velour-Bold', sans-serif;
+.footerTitle {
+  font-size: 36px;
+  margin-bottom: 2px;
   letter-spacing: 0.8rem;
-  font-size: 35px;
-  margin-bottom: 10px;
+  font-family: 'Velour-Bold', sans-serif;
 }
 
-.footerText {
-  color: white;
-  font-size: 10px;
-  margin-top: -10px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  letter-spacing: 0.1rem;
-  line-height: 1.5;
+.footerSubtitle {
+  font-size: 13px;
 }
 
-.footerRight {
-  display: flex;
-  justify-content: center;
+.footerContacts {
+  margin-bottom: 30px;
 }
 
-.footerLinks {
+.contactList {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+}
+
+.contactItem {
+  margin: 0 10px;
+}
+
+.contactItem a {
   color: #fff;
-}
-
-.footerLinks li {
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.footerLinks li:last-child {
-  margin-right: 0;
-}
-
-.footerLinks a {
   text-decoration: none;
-  color: #fff;
-  letter-spacing: 0.1rem;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.footerRights {
   font-size: 12px;
 }
 
-.footerCopyright {
-  color: white;
-  padding-bottom: 15px;
-  letter-spacing: 0.1rem;
-  font-size: 14px;
-}
-
-/* Media query example */
 @media (max-width: 768px) {
-  .footerLinks {
+  .footerContent {
     flex-direction: column;
+  }
+
+  .footerLogo {
+    margin-bottom: 10px;
+  }
+
+  .contactList{
+    flex-direction: column;
+  }
+
+  .contactItem{
+    margin-bottom: 10px;
   }
 }
