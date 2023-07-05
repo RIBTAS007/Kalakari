@@ -16,7 +16,7 @@ const Footer = lazy(() => import('./Footer'));
 const Homepage = () => {
   return (
     <>
-      <div className={styles.navDiv}></div>
+      {/* <div className={styles.navDiv}></div> */}
       <Suspense fallback={<RotatingLogo/>}>
         <Section1 />
         <Section2 />

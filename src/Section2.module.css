@@ -1,23 +1,43 @@
-/* Section2.module.css */
 @import './fonts/fonts.css';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-.sectionTwoBg{
+.sectionTwoBg {
   background-image: url(./images/background.png);
   min-height: 100vh;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
+  padding: 15vh 6vw 0 6vw;
 }
 
 .carouselContainer {
-  width: 90%; 
   min-height: 100vh !important;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .carousel {
   width: 100% !important;
   height: 100% !important;
+  transition: transform 0.8s ease-in-out;
+}
+
+.carousel .slide {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel .slide.animated {
+  transition-delay: 0.2s;
+}
+
+.carousel .control-dots {
+  bottom: 3vh;
+}
+
+.carousel .control-dots .dot {
+  background: white;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel .control-dots .dot.selected {
+  opacity: 1;
 }
 
 .carouselItem {
@@ -25,6 +45,18 @@
   height: 100vh !important;
   display: flex;
   align-items: flex-end;
+  overflow: hidden;
+}
+
+.carouselItem:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(119, 118, 118, 0.203) 0%, rgba(0, 0, 0, 0.3) 100%);
+  z-index: 1;
 }
 
 .carouselItem img {
@@ -35,7 +67,7 @@
 
 .carouselCaption {
   position: absolute;
-  bottom: 80px;
+  bottom: 8vh; /* Updated unit to vh */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -47,9 +79,9 @@
   color: #fff;
   margin-bottom: 5px;
   font-family: 'Brandon', sans-serif;
-  backdrop-filter: blur(10px); /* Increase the blur value as desired */
+  backdrop-filter: blur(10px);
   background-color: rgba(19, 18, 18, 0.4);
-  border-radius: 10px; 
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   padding: 10px;
   letter-spacing: 0.4rem;
@@ -78,41 +110,37 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
-/* Media query*/
 @media (max-width: 768px) {
   .sectionTwoBg {
-    min-height: 50vh; /* Adjust the height of the section */
-    padding-top: 2vh; /* Adjust the top padding */
-    padding-bottom: 2vh; /* Adjust the bottom padding */
+    min-height: 50vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
   }
 
   .carouselContainer {
     min-height: 50vh !important;
   }
-  
+
   .carousel {
     height: 50% !important;
   }
-  
+
   .carouselItem {
     height: 50vh !important;
   }
 
   .carouselCaption {
-
-    bottom: 25px;
-
+    bottom: 2vh; /* Updated unit to vh */
   }
 
   .carouselCaption h2 {
     font-size: 2vw;
-    letter-spacing: 0.1rem; /* Remove the letter spacing */
+    letter-spacing: 0.1rem;
   }
 
   .carouselCaption p {
     font-size: 10px;
     letter-spacing: 0;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
 }
-

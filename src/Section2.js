@@ -20,11 +20,12 @@ const Section2 = () => {
         <Carousel
           autoPlay
           infiniteLoop
-          interval={1000}
+          interval={5000}
           stopOnHover
           showThumbs={false}
           showStatus={false}
-          className={styles.carousel}
+          className={`${styles.carousel} ${styles.carouselContainer}`}
+          transitionTime={800}
         >
           <div className={`${styles.carouselItem} ${styles.imageOverlay}`}>
             <img src={kanthaEmbroidery} alt="kanthaEmbroidery" />
