@@ -55,7 +55,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(119, 118, 118, 0.203) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* background: linear-gradient(to bottom, rgba(119, 118, 118, 0.203) 0%, rgba(0, 0, 0, 0.3) 100%); */
   z-index: 1;
 }
 
@@ -75,10 +75,10 @@
 }
 
 .carouselCaption h2 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #fff;
   margin-bottom: 5px;
-  font-family: 'Brandon', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   backdrop-filter: blur(10px);
   background-color: rgba(19, 18, 18, 0.4);
   border-radius: 10px;
@@ -89,7 +89,7 @@
 
 .carouselCaption p {
   font-size: 1rem;
-  font-family: 'Brandon', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
 .carousel .control-arrow.carousel__arrow--left,
@@ -113,8 +113,6 @@
 @media (max-width: 768px) {
   .sectionTwoBg {
     min-height: 50vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
   }
 
   .carouselContainer {

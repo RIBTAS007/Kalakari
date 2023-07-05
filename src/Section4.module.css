@@ -67,8 +67,8 @@
 .featureDescription {
   margin: auto 0;
   color: #fff;
-  font-family: 'Brandon', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: justify;
   letter-spacing: 0.2rem;
@@ -98,7 +98,7 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  font-family: 'Brandon', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.2rem;
   cursor: pointer;
   margin: 15px auto 0px auto;
@@ -126,7 +126,7 @@
 @media (max-width: 768px) {
 
   .mainContent {
-    min-height: 50vh;
+    min-height: 60vh;
   }
 
   .featureBox {
@@ -134,11 +134,7 @@
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-  }
-
-  .featureContent {
-    margin-bottom: 20px;
+    margin: 2vh;
   }
 
   .featureContent,
@@ -152,21 +148,19 @@
   }
 
   .customButton {
-    margin: 15px auto 0px auto;
+    margin: 3vh auto 0px auto;
   }
 
   .customButton {
-    font-size: 12px;
+    font-size: 1rem;
   }
 
   .featureTitle {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   .featureDescription {
-    margin-top: 15px;
-    /* font-size: 2vw;
-    letter-spacing: 0.1rem; */
+    margin-top: 3vh;
     line-height: 1.5;
   }
 }

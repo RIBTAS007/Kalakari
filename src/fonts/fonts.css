@@ -18,4 +18,11 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Helvetics';
+    src: url('./Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
   

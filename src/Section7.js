@@ -16,14 +16,14 @@ const Section7 = () => {
             alt="Feature Image"
           ></motion.img>
         </div>
-        <h2  className={styles.heading}>SEAL OF THE REGION <br /> OF ORIGIN</h2>
+        <h2  className={styles.heading}>SEAL OF THE REGION OF ORIGIN</h2>
       </div>
-      <motion.p className={styles.paragraph}>
+      <p className={styles.paragraph}>
         At Kalakari, authenticity and quality are valued. Each product comes
         with a 'Seal of Origin' to assure customers of its originality, bridging
         the gap between artisans and consumers. It represents rich cultural
         heritage and India's diverse craftsmanship.
-      </motion.p>
+      </p>
     </div>
   );
 };

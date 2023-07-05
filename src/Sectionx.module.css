@@ -1,0 +1,105 @@
+@import './fonts/fonts.css';
+
+.sectionThreeBg {
+  background-image: url(./images/background.png);
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 100vh;
+  position: relative;
+}
+
+.sectionThreeBg::before {
+  content: "";
+  display: inline-block;
+  height: 100vh;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.outerContainer {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  padding: auto 20px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 4px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+  font-size: 1.1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  margin: 0;
+  opacity: 0;
+  font-family: 'Brandon', sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+.panel.active {
+  flex: 1;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+  background-color: rgba(19, 18, 18, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.heading h1{
+  font-size: 36px;
+  margin: 10px;
+  color: #fff;
+  font-family: 'Velour-Bold', sans-serif;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+@media (max-width: 786px) {
+  .container {
+    width: 100%;
+  }
+
+  .sectionThreeBg {
+    min-height: 50vh;
+  }
+
+  .sectionThreeBg::before {
+    height: 50vh;
+  }
+
+  .panel {
+    height: 48vh;
+  }
+
+  .panel h3{
+    font-size: 2vw;
+    letter-spacing: 0.1rem;
+  }
+}

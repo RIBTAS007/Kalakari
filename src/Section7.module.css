@@ -8,45 +8,43 @@
   justify-content: center;
   background-image: url(./images/background.png);
   min-height: 100vh;
+  flex-direction: column;
+  padding: 15vh 6vw 15vh 6vw;
 }
 
 .heading {
-  font-size: 36px;
+  font-size: 3vw; /* Updated with vw unit */
   font-weight: bold;
-  margin-bottom: 20px;
   color: #fff;
   font-family: 'Velour-Bold', sans-serif;
   text-align: center;
   letter-spacing: 0.4rem;
+  margin: 6vh 0;
 }
 
 .paragraph {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fff;
-  font-family: 'Brandon', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   letter-spacing: 0.2rem;
   line-height: 1.5;
   text-align: justify;
   max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
   flex: 1;
-  margin-top: 20px;
 }
-
 
 .sectionContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-  flex:1;
 }
 
 .imageContainer {
-  margin-bottom: 20px;
+  margin-bottom: 2vh; /* Updated with vh unit */
   text-align: center;
+  width: 25vw; /* Updated with vw unit */
+  height: 25vw; /* Updated with vw unit */
   max-width: 150px;
   max-height: 150px;
 }
@@ -62,25 +60,27 @@
 /* Responsive Styles */
 
 @media (max-width: 768px) {
-
-  .section{
+  .section {
     flex-direction: column;
     min-height: 50vh;
+    padding: 10vh 6vw; /* Adjust padding as needed */
   }
 
   .heading {
-    font-size: 20px;
+    font-size: 1.5rem; /* Updated with vw unit */
+    margin: 3vh 0; /* Adjust margin as needed */
   }
 
   .paragraph {
-    /* font-size: 2vw;
-    letter-spacing: 0.1rem; */
-    margin-bottom: 10vh;
+    font-size: 1rem; /* Updated with vw unit */
     line-height: 1.5;
+    max-width: 90%; /* Adjust max-width as needed */
   }
 
   .imageContainer {
-    width: 200px;
-    height: 200px;
+    width: 30vw; /* Updated with vw unit */
+    height: 30vw; /* Updated with vw unit */
+    max-width: 200px;
+    max-height: 200px;
   }
 }

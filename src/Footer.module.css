@@ -1,22 +1,22 @@
 .footer {
   background-image: url(./images/background.png);
   color: #fff;
-  padding: 30px;
+  padding: 10vh 6vw 10vh 6vw;
   text-align: center;
-  border-top:#fff 2px solid;
+  border-top: #fff 2px solid;
 }
 
 .footerContent {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 3vh; /* Updated with vh unit */
 }
 
 .footerLogo {
-  width: 80px;
-  height: 80px;
-  margin-right: 14px;
+  width: 6vw; /* Updated with vw unit */
+  height: 6vw; /* Updated with vw unit */
+  margin-right: 1.4vw; /* Updated with vw unit */
 }
 
 .footerInfo {
@@ -24,21 +24,21 @@
 }
 
 .footerTitle {
-  font-size: 42px;
-  margin-bottom: 2px;
+  font-size: 4vw; /* Updated with vw unit */
+  margin-bottom: 0.2vw; /* Updated with vw unit */
   letter-spacing: 0.8rem;
   font-family: 'Velour-Bold', sans-serif;
 }
 
 .footerSubtitle {
-  font-size: 10px;
-  font-family: 'Brandon', sans-serif;
+  font-size: 0.9vw; /* Updated with vw unit */
+  font-family: 'Helvetica', sans-serif;
   letter-spacing: 0.1rem;
 }
 
 .footerContacts {
-  margin-bottom: 30px;
-  font-family: 'Brandon', sans-serif;
+  margin-bottom: 3vh; /* Updated with vh unit */
+  font-family: 'Helvetica', sans-serif;
   letter-spacing: 0.1rem;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .contactItem {
-  margin: 0 10px;
+  margin: 3vh 1vw; /* Updated with vw unit */
 }
 
 .contactItem a {
@@ -60,29 +60,48 @@
 }
 
 .icon {
-  margin-right: 5px;
+  margin-right: 0.5vw; /* Updated with vw unit */
 }
 
 .footerRights {
   font-size: 1.1rem;
-  font-family: 'Brandon', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   letter-spacing: 0.1rem;
 }
 
 @media (max-width: 768px) {
+
+  .footerTitle {
+    font-size: 1.7rem;
+  }
+
+  .footerSubtitle {
+    font-size: 0.4rem;
+  }
+
   .footerContent {
     flex-direction: column;
   }
 
   .footerLogo {
-    margin-bottom: 10px;
+    margin-bottom: 4vh; /* Updated with vh unit */
+    width: 15vw; /* Updated with vw unit */
+    height: 15vw;
   }
 
-  .contactList{
+  .contactList {
     flex-direction: column;
   }
 
-  .contactItem{
-    margin-bottom: 10px;
+  .contactItem {
+    margin-bottom: 1vh; /* Updated with vh unit */
+  }
+
+  .contactItem a {
+   font-size: 0.8rem;
+  }
+
+  .footerRights {
+    font-size: 0.8rem;
   }
 }

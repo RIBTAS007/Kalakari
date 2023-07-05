@@ -14,7 +14,7 @@
 }
 
 .text {
-  font-family: 'Brandon', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   color: white;
   width: 150px;
   font-size: 1.2rem;
@@ -33,7 +33,7 @@
 
 @media (max-width: 768px) {
   .section5container {
-    height: 50vh;
+    height: 60vh;
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -41,10 +41,14 @@
   }
 
   .text {
-    /* font-size: 2vw;
-    letter-spacing: 0.1rem; */
-    width: 100%; 
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
     border-left: none;
+    border-radius: 1rem;
     background-image: url(./images/background.png);
+    padding: 5vw;
+    width: 70vw;
+    border: 0.5px solid white;
   }
+
 }
