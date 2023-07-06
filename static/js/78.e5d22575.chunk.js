@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkalakari=self.webpackChunkkalakari||[]).push([[78],{2078:function(e,t,a){a.r(t),a.d(t,{default:function(){return u}});var n="Section5_section5container__l-JZj",i="Section5_text__8wdDY",r=a(3655),c=a(184),u=function(){return(0,c.jsx)("div",{className:n,children:(0,c.jsx)(r.E.p,{className:i,whileHover:{textShadow:"0px 0px 2px rgb(255,255,255)"},children:"Elevate tradition with our premium Indian cultural products"})})}}}]);
+//# sourceMappingURL=78.e5d22575.chunk.js.map
